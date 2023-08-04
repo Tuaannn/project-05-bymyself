@@ -34,7 +34,7 @@ input:-webkit-autofill:active {
 
 /* common */
 
-.line-clamp {
+.blog-item--line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 2);
     -webkit-box-orient: vertical;
@@ -1147,11 +1147,10 @@ a {
     color: var(--desc-color);
     font-size: 1.4rem;
     line-height: 1.71;
+    margin-bottom: 10px;
 }
 
 .blog-item__heading {
-    display: inline-block;
-    margin: 10px 0 20px;
     color: #212832;
     font-size: 1.8rem;
     font-weight: 600;
@@ -1159,6 +1158,8 @@ a {
 }
 
 .blog-item__link {
+    margin-top: 20px;
+    display: inline-block;
     color: var(--desc-color);
     font-family: Open Sans;
     font-size: 1.6rem;
