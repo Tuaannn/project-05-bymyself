@@ -228,6 +228,7 @@ a {
 }
 
 .hero-content__btn-submit {
+    cursor: pointer;
     position: absolute;
     left: 383px;
     top: 8px;
@@ -1324,6 +1325,7 @@ a {
     min-width: 113px;
     background: #7264d6;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .error {
